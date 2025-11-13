@@ -38,16 +38,7 @@ img{
     color:#071330 ;
     margin-top: 30px;
 }
-@media(max-width: 765px) {
-    
-    section {
-        flex-direction: column;
-    }
-    .pict 
-    .content{
-        width: 100%;
-}
-}
+
 button{
     background-color: #E58311;
     color: rgb(255, 255, 255);
@@ -58,4 +49,14 @@ button{
 }
 button:hover{
     background-color: rgb(255, 238, 0);
+}
+@media(max-width: 765px) {
+    
+    section {
+        flex-direction: column;
+    }
+    .pict,
+    .content{
+        width: 100%;
+}
 }
